@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App {
+  text-align: center;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+}
+
+.sectionHero {
+  background-image: url(./images/cupcake-104654_1920.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.sectionMid {
+  background-image: url(./images/pexels-buenosia-carol-1359331.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.overlay {
+  background-color: #0000003b;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orderButton {
+  position: relative;
+  padding: 8px 28px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 37px;
+  border: none;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  background: #c6812c;
+}
+
+.orderButton:hover {
+  background: #f38d10;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0);
+}
+.content {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.37);
+  height: 84%;
+  border-radius: 20px;
+  position: relative;
+  top: 6%;
+  padding: 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: fit-content;
+  color: black;
+  padding-bottom: 10px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  top: -60px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0px 20px 30px 20px;
+}
+.itemImage {
+  width: 100%;
+}
