@@ -64,7 +64,6 @@ const MidSection = () => {
           />
         </div>
       </div>
-      <h1>Mid Section</h1>
     </section>
   );
 };

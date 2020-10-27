@@ -7,6 +7,19 @@
   text-align: center;
 }
 
+.header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+}
+
+.headerElements {
+  margin: 0px 10px;
+  padding-top: 10px;
+}
+
 .section {
   width: 100%;
   height: 100vh;
@@ -20,6 +33,12 @@
 
 .sectionMid {
   background-image: url(./images/pexels-buenosia-carol-1359331.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.sectionBottom {
+  background-image: url("./images/abundance-1868573_1920.jpg");
   background-size: cover;
   color: white;
 }
@@ -72,7 +91,7 @@
 .item {
   display: flex;
   flex-direction: column;
-  width: 270px;
+  width: 21%;
   height: fit-content;
   color: black;
   padding-bottom: 10px;
@@ -81,8 +100,44 @@
   top: -60px;
   border-radius: 10px;
   overflow: hidden;
-  margin: 0px 20px 30px 20px;
+  margin: 0px 20px 3% 20px;
 }
 .itemImage {
   width: 100%;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: row;
+  /* background-color: #fff; */
+  justify-content: center;
+}
+
+.customerReview {
+  width: 40%;
+  margin: 10px;
+  background-color: rgba(215, 17, 113, 0.803);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgb(52, 48, 48);
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footerBox {
+  padding: 10px;
 }
