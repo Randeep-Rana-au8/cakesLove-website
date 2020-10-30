@@ -1,18 +1,21 @@
 import "./App.css";
-import BottomSection from "./components/BottomSection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import MidSection from "./components/MidSection";
+
+import { Redirect, Route, Switch } from "react-router-dom";
+import Section from "./components/Section";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
-      <MidSection />
-      <BottomSection />
+      <Switch>
+        <Route exact path="/" component={Section} />
+        <Route exact path="/aboutus" component={AboutUs} />
+      </Switch>
       <Footer />
+      <Redirect path="/" />
     </div>
   );
 }

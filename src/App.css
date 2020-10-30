@@ -15,6 +15,15 @@
   position: sticky;
 }
 
+.headerTag {
+  text-decoration: none;
+  color: white;
+}
+
+.headerTag:hover {
+  color: rgb(219, 37, 67);
+}
+
 .headerElements {
   margin: 0px 10px;
   padding-top: 10px;
