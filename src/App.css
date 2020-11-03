@@ -12,7 +12,8 @@
   color: white;
   display: flex;
   justify-content: center;
-  position: sticky;
+  align-items: center;
+  padding: 16px;
 }
 
 .headerTag {
@@ -26,7 +27,7 @@
 
 .headerElements {
   margin: 0px 10px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .section {

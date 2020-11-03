@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import { Redirect, Route, Switch } from "react-router-dom";
 import Section from "./components/Section";
 import AboutUs from "./pages/AboutUs";
+import Contactus from "./pages/Contactus";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <Switch>
         <Route exact path="/" component={Section} />
         <Route exact path="/aboutus" component={AboutUs} />
+        <Route exact path="/contact" component={Contactus} />
       </Switch>
       <Footer />
-      <Redirect path="/" />
+      {/* <Redirect path="/" /> */}
     </div>
   );
 }
