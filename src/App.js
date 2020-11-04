@@ -6,6 +6,7 @@ import { Redirect, Route, Switch } from "react-router-dom";
 import Section from "./components/Section";
 import AboutUs from "./pages/AboutUs";
 import Contactus from "./pages/Contactus";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" component={Section} />
         <Route exact path="/aboutus" component={AboutUs} />
         <Route exact path="/contact" component={Contactus} />
+        <Route exact path="/products" component={Products} />
       </Switch>
       <Footer />
       {/* <Redirect path="/" /> */}
